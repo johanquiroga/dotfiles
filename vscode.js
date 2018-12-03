@@ -5,7 +5,7 @@
     "editor.formatOnPaste": true,
     "materialTheme.fixIconsRunning": false,
     "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "editor.fontSize": 20,
+    "editor.fontSize": 18,
     "editor.letterSpacing": 0,
     "editor.fontLigatures": true,
     // Install Fira Code. @see https://github.com/tonsky/FiraCode
@@ -38,7 +38,7 @@
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.currentLine.enabled": false,
+    "gitlens.currentLine.enabled": true,
     "gitlens.hovers.currentLine.enabled": false,
     "workbench.colorTheme": "Material Theme Darker High Contrast",
     "cSpell.language": "en,es",
@@ -60,4 +60,8 @@
     // Fix path or remove
     "dart.flutterSdkPath": "/Users/johanquiroga/flutter",
     "workbench.statusBar.visible": true,
+    "files.associations": {
+        "*.js": "javascript"
+    },
+    "gitlens.mode.active": "review",
 }
