@@ -62,12 +62,12 @@ ZSH_THEME="cobalt2"
 plugins=(
   git
   node
+  nvm
   npm
   yarn
   pip
   extract
   thefuck
-  cloudapp
   z
   zsh-syntax-highlighting
 )

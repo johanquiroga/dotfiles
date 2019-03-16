@@ -15,13 +15,16 @@ code --install-extension donjayamanne.githistory
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
 code --install-extension Equinusocio.vsc-material-theme
+code --install-extension esbenp.prettier-vscode
 code --install-extension felixfbecker.php-intellisense
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension jkjustjoshing.vscode-text-pastry
 code --install-extension joshpeng.sublime-babel-vscode
 code --install-extension joshpeng.theme-onedark-sublime
+code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension junstyle.php-cs-fixer
+code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension mechatroner.rainbow-csv
 code --install-extension mikestead.dotenv
 code --install-extension mkloubert.vscode-remote-workspace
@@ -30,6 +33,8 @@ code --install-extension naumovs.color-highlight
 code --install-extension pflannery.vscode-versionlens
 code --install-extension PKief.material-icon-theme
 code --install-extension pnp.polacode
+code --install-extension Prisma.vscode-graphql
+code --install-extension sleistner.vscode-fileutils
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension streetsidesoftware.code-spell-checker-spanish
 code --install-extension Telerik.nativescript
