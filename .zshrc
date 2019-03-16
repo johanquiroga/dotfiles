@@ -139,5 +139,8 @@ export PATH=$HOME/flutter/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$HOME/.composer/vendor/bin:$PATH
 
+# Fastlane
+export PATH="$HOME/.fastlane/bin:$PATH"
+
 eval $(thefuck --alias)
 export PATH="/usr/local/mysql/bin:$PATH"
