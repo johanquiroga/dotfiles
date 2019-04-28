@@ -3,7 +3,7 @@ Commands to install ESLint configs globally using [Wesbos ESLint and Prettier co
 ```bash
 npx install-peerdeps -g eslint-config-wesbos
 npm i -g eslint-plugin-html eslint-plugin-markdown
-touch ~/.eslintrc && curl https://raw.githubusercontent.com/johanquiroga/dotfiles/master/.eslintrc.default >> ~/.eslintrc
+touch ~/.eslintrc && curl https://raw.githubusercontent.com/johanquiroga/dotfiles/master/.eslintrc >> ~/.eslintrc
 ```
 
-After executing the commands, copy the content of the [ESLint global config file](./.eslintrc.default) and paste it in the file created previously `~/.eslintrc`
+After executing the commands, copy the content of the [ESLint global config file](./.eslintrc) and paste it in the file created previously `~/.eslintrc`

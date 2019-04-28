@@ -66,5 +66,10 @@
   "files.associations": {
     "*.js": "javascript"
   },
-  "gitlens.mode.active": "review"
+  "gitlens.mode.active": "review",
+  "window.zoomLevel": null,
+  "emmet.showSuggestionsAsSnippets": true,
+  "window.titleBarStyle": "custom",
+  "[graphql]": {},
+  "workbench.editor.enablePreview": false
 }

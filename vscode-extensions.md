@@ -8,8 +8,6 @@ code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension cmstead.jsrefactor
 code --install-extension CoenraadS.bracket-pair-colorizer
-code --install-extension Dart-Code.dart-code
-code --install-extension Dart-Code.flutter
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension dsznajder.es7-react-js-snippets
