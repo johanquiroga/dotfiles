@@ -28,4 +28,5 @@ brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting
 brew cask install fastlane
+brew cask install hyper
 ```
