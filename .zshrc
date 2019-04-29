@@ -63,8 +63,9 @@ ZSH_THEME="cobalt2"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  node
+  zsh-nvm
   nvm
+  node
   npm
   yarn
   pip
@@ -113,14 +114,16 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 #alias ls='ls --color=auto'
-alias start_coinvest='ssh ec2-user@52.14.5.58 -i ~/.ssh/CoinvestStaging.pem'
-alias ngrok='~/Downloads/ngrok'
+
+alias devmenu='adb shell input keyevent 82'
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # openssl
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
@@ -130,17 +133,12 @@ export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
 
 # Android Studio
 export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-# flutter
-export PATH=$HOME/flutter/bin:$PATH
-export PATH="/usr/local/sbin:$PATH"
-export PATH=$HOME/.composer/vendor/bin:$PATH
 
 # Fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 eval $(thefuck --alias)
-export PATH="/usr/local/mysql/bin:$PATH"
