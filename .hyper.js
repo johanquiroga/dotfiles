@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: '"Operator Mono", "Inconsolata for Powerline", monospace',
+    fontFamily: '"Fira Code","Operator Mono", "Inconsolata for Powerline", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',

@@ -17,6 +17,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension felixfbecker.php-intellisense
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
+code --install-extension infeng.vscode-react-typescript
 code --install-extension jkjustjoshing.vscode-text-pastry
 code --install-extension joshpeng.sublime-babel-vscode
 code --install-extension joshpeng.theme-onedark-sublime
