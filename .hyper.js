@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: '"Fira Code","Operator Mono", "Inconsolata for Powerline", monospace',
+    fontFamily: '"Fira Code","Inconsolata for Powerline", "Operator Mono", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -145,11 +145,12 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyper-material-theme",
+    // "hyper-material-theme",
     "hypercwd",
     "hyper-pane",
     "hyper-search",
-    "hyper-highlight-active-pane"
+    "hyper-highlight-active-pane",
+    "hyper-materialshell"
   ],
 
   // in development, you can create a directory under
