@@ -115,6 +115,8 @@ alias la='ls -A'
 alias l='ls -CF'
 #alias ls='ls --color=auto'
 
+# React-Native
+alias rn='npx react-native'
 alias devmenu='adb shell input keyevent 82'
 
 fpath=(/usr/local/share/zsh-completions $fpath)
@@ -123,6 +125,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Yarn
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+
 # openssl
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
@@ -130,10 +136,12 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
 
 # Android Studio
-export ANDROID_HOME=$HOME/Library/Android/sdk
+export ANDROID_SDK=$HOME/Library/Android/sdk
+export ANDROID_HOME=$ANDROID_SDK
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 eval $(thefuck --alias)
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
