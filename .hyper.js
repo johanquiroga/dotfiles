@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: '"Fira Code","Inconsolata for Powerline", "Operator Mono", monospace',
+    fontFamily: '"Fira Code","Operator Mono", "Inconsolata for Powerline", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -91,11 +91,11 @@ module.exports = {
       lightWhite: '#FFFFFF',
     },
 
-    MaterialTheme: {
-      // Set the theme variant,
-      // OPTIONS: 'Darker', 'Palenight', 'Ocean', ''
-      theme: 'Darker',
-    },
+      // MaterialTheme: {
+      //   // Set the theme variant,
+      //   // OPTIONS: 'Darker', 'Palenight', 'Ocean', ''
+      //   theme: 'Darker',
+      // },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
@@ -145,7 +145,6 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    // "hyper-material-theme",
     "hypercwd",
     "hyper-pane",
     "hyper-search",
